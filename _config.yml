@@ -16,25 +16,25 @@ minimal_mistakes_skin    : "default" # "default", "air", "aqua", "contrast", "da
 
 # Site Settings
 locale                   : "en-US"
-rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
+rtl                      : flase # true, false (default) # turns direction of the page into right to left for RTL languages # 글씨 방향 (true : 오>왼 false(default) : 왼>오)
 title                    : "Saya’s Blog"
 title_separator          : "|"
-subtitle                 : # site tagline that appears below site title in masthead
+subtitle                 : ":3" # site tagline that appears below site title in masthead # 사이트 제목 아래에 표시되는 부제목
 name                     : "saya"
 description              : "편하게 공부하는 공간"
 url                      : "https://kyunosaya.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
+baseurl                  : "" # the subpath of your site, e.g. "/blog" # 하위경로 
 repository               : "kyunosaya/kyunosaya.github.io"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
-breadcrumbs              : # true, false (default)
+teaser                   :  # path of fallback teaser image, e.g. "/assets/images/500x300.png" # 썸네일 이미지
+logo                     :  # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png" # 로고 이미지
+masthead_title           :  # overrides the website title displayed in the masthead, use " " for no title # 상단 헤더 표시 제목
+breadcrumbs              : true # true, false(default) #페이지의 위치 경로를 계층적으로 보여주는 네비게이션을 보여줄지말지
 words_per_minute         : 200
-enable_copy_code_button  : # true, false (default)
-copyright                : # "copyright" name, defaults to site.title
-copyright_url            : # "copyright" URL, defaults to site.url
+enable_copy_code_button  : false # true, false(default) # 코드블록 복사버튼 표시 여부
+copyright                :  # "copyright" name, defaults to site.title # footer에 표시될 저작권 이름
+copyright_url            :  # "copyright" URL, defaults to site.url # 저작권 텍스트를 클릭했을 때 이동할 링크
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
+  provider               : false # false(default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom" # 어떤 댓글 서비스를 쓸지 선택 (giscus추천)
   disqus:
     shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
@@ -43,21 +43,21 @@ comments:
     # https://developers.facebook.com/docs/plugins/comments
     appid                :
     num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"
+    colorscheme          : # "light"(default), "dark"
   utterances:
-    theme                : # "github-light" (default), "github-dark"
-    issue_term           : # "pathname" (default)
+    theme                : # "github-light"(default), "github-dark"
+    issue_term           : # "pathname"(default)
   giscus:
     repo_id              : # Shown during giscus setup at https://giscus.app
     category_name        : # Full text name of the category
     category_id          : # Shown during giscus setup at https://giscus.app
-    discussion_term      : # "pathname" (default), "url", "title", "og:title"
-    reactions_enabled    : # '1' for enabled (default), '0' for disabled
-    theme                : # "light" (default), "dark", "dark_dimmed", "transparent_dark", "preferred_color_scheme"
-    strict               : # 1 for enabled, 0 for disabled (default)
+    discussion_term      : "pathname" # "pathname"(default), "url", "title", "og:title" # "pathname"=글마다 댓글을 경로 기준으로 연결
+    reactions_enabled    : '1' # '1' for enabled(default), '0' for disabled # 리액션 허용 1=허용, 0=비허용
+    theme                : "preferred_color_scheme" # "light"(default), "dark", "dark_dimmed", "transparent_dark", "preferred_color_scheme" # 다크/라이트 자동 전환="preferred_color_scheme"
+    strict               : # 1 for enabled, 0 for disabled(default)
     input_position       : # "top", "bottom" # The comment input box will be placed above or below the comments
-    emit_metadata        : # 1 for enabled, 0 for disabled (default) # https://github.com/giscus/giscus/blob/main/ADVANCED-USAGE.md#imetadatamessage
-    lang                 : # "en" (default)
+    emit_metadata        : # 1 for enabled, 0 for disabled(default) # https://github.com/giscus/giscus/blob/main/ADVANCED-USAGE.md#imetadatamessage
+    lang                 : # "en" (default) # 댓글 UI 언어
     lazy                 : # true, false # Loading of the comments will be deferred until the user scrolls near the comments container.
   staticman:
     branch               : # "master"
@@ -66,21 +66,21 @@ reCaptcha:
   siteKey                :
   secret                 :
 atom_feed:
-  path                   : # blank (default) uses feed.xml
-  hide                   : # true, false (default)
-search                   : # true, false (default)
-search_full_content      : # true, false (default)
-search_provider          : # lunr (default), algolia, google
+  path                   : # blank(default) uses feed.xml
+  hide                   : # true, false(default)
+search                   : true # true, false(default) # 검색기능 활성화 여부
+search_full_content      : false # true, false(default) # 검색범위
+search_provider          : # lunr(default), algolia, google # 어떤 검색 엔진을 쓸지 lunr=로컬엔진, algolia=외부서비스, google=구글검색위젯
 lunr:
-  search_within_pages    : # true, false (default)
+  search_within_pages    : false # true, false(default) # 페이지 안에서 검색 결과를 보여줄지 여부 true=현재 페이지 안에서 검색 false=별도 검색 페이지
 algolia:
   application_id         : # YOUR_APPLICATION_ID
   index_name             : # YOUR_INDEX_NAME
   search_only_api_key    : # YOUR_SEARCH_ONLY_API_KEY
-  powered_by             : # true (default), false
+  powered_by             : # true(default), false
 google:
   search_engine_id       : # YOUR_SEARCH_ENGINE_ID
-  instant_search         : # false (default), true
+  instant_search         : # false(default), true
 # SEO Related
 google_site_verification :
 bing_site_verification   :
@@ -105,10 +105,10 @@ social:
 
 # Analytics
 analytics:
-  provider               : # false (default), "google", "google-universal", "google-gtag", "custom"
+  provider               : # false(default), "google", "google-universal", "google-gtag", "custom"
   google:
     tracking_id          :
-    anonymize_ip         : # true, false (default)
+    anonymize_ip         : # true, false(default)
 
 
 # Site Author
