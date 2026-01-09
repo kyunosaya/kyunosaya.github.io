@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "default" # "default", "air", "aqua", "contrast", "da
 
 # Site Settings
 locale                   : "en-US"
-rtl                      : flase # true, false (default) # turns direction of the page into right to left for RTL languages # 글씨 방향 (true : 오>왼 false(default) : 왼>오)
+rtl                      : false # true, false(default) # turns direction of the page into right to left for RTL languages # 글씨 방향 (true : 오>왼 false(default) : 왼>오)
 title                    : "Saya’s Blog"
 title_separator          : "|"
 subtitle                 : ":3" # site tagline that appears below site title in masthead # 사이트 제목 아래에 표시되는 부제목
