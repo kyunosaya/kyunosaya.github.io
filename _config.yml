@@ -12,7 +12,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "air" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
@@ -20,7 +20,7 @@ rtl                      : false # true, false(default) # turns direction of the
 title                    : "Saya’s Blog"
 title_separator          : "|"
 subtitle                 : ":3" # site tagline that appears below site title in masthead # 사이트 제목 아래에 표시되는 부제목
-name                     : "saya"
+name                     : "사야"
 description              : "편하게 공부하는 공간"
 url                      : "https://kyunosaya.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog" # 하위경로 
@@ -115,14 +115,14 @@ analytics:
 # Site Author # 블로그 작성자(Author) 프로필 설정
 author:
   name             : "saya"
-  avatar           : "/assets/images/프로필이미지.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg" # 프로필 이미지 경로
-  bio              : "I am an **amazing** person." # 자기소개(Markdown 사용 가능)
+  avatar           : "/assets/images/프로필이미지.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg" # 프로필 이미지 경로
+  bio              : "✨ 나만의 **멋진** 기록장 ✨" # 자기소개(Markdown 사용 가능)
   location         : "Seoul" # 거주지 / 활동 지역
-  email            : "saya@email.com"
+  email            : "saya0203@naver.com"
   links: # 작성자 프로필에 아이콘으로 표시되는 링크들
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:saya0203@naver.com"
+      # url: "mailto:saya0203@naver.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
