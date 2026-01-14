@@ -114,7 +114,7 @@ analytics:
 
 # Site Author # 블로그 작성자(Author) 프로필 설정
 author:
-  name             : "사"
+  name             : "사야"
   avatar           : "/assets/images/프로필이미지.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg" # 프로필 이미지 경로
   bio              : "✨ 나만의 **멋진** 기록장 ✨" # 자기소개(Markdown 사용 가능)
   location         : "Seoul" # 거주지 / 활동 지역
