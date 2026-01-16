@@ -5,8 +5,8 @@
 /* Colors */
 $main-color : #8FAF9F !default;
 $main-light-color : #C7D7CE !default;
-$background-color: #F4F3EE !default;
-$background-sub-color: #ECEBE6 !default;
+$background-color: #F6F1EB !default;
+$background-sub-color: #EEE6DC !default;
 $text-color : #2F3E3E !default;
 $text-point-color : #5C6F68 !default;
 
@@ -18,6 +18,7 @@ $masthead-link-color-hover: $text-color !default;
 $navicon-link-color-hover: mix(#fff, $text-color, 80%) !default;
 
 .page__footer {
+  background-color: $main-color !important;
   color: $main-light-color !important;
 }
 
