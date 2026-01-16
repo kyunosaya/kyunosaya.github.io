@@ -1,11 +1,11 @@
 /* ==========================================================================
-   Tree skin made by saya
+   Leaves skin made by saya
    ========================================================================== */
 
 /* Colors */
-$background-color: #FBFBFB !default;
-$text-color: #464646 !default;
-$muted-text-color: #393e46 !default;
+$background-color: #F4F3EE !default;
+$text-color: #2F3E3E !default;
+$muted-text-color: #5C6F68 !default;
 $primary-color: #c5d5bc !default;
 $border-color: mix(#fff, #557759, 75%) !default;
 $footer-background-color: #c5d5bc !default;
@@ -15,7 +15,7 @@ $masthead-link-color-hover: $text-color !default;
 $navicon-link-color-hover: mix(#fff, $text-color, 80%) !default;
 
 .page__footer {
-  color: #6d916b !important; // override
+  color: #8FAF9F !important; // override
 }
 
 .page__footer-follow .social-icons .svg-inline--fa {
