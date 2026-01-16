@@ -5,31 +5,7 @@ search: false
 
 @charset "utf-8";
 
-// 파일 쪼개기(파일 연결)
+// main.scss는 엔트리(연결) 역할만...
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
-@import "custom/custom";
-
-// 제목
-.page__title {
-  
-}
-
-// 내용
-.page__content {
-  h1 { font-size: 2.5rem; }
-  h2 { font-size: 2rem; }
-  h3 { font-size: 1.5rem; }
-  h4 { font-size: 1.2rem; }
-  p,
-  li {
-    font-size: 1rem;
-    line-height: 1.75;
-  }
-}
-
-@media (max-width: 768px) {
-  html {
-    font-size: 14px;
-  }
-}
+@import "custom/custom"; //내가 만든 거, html, body 등 글로벌 스타일 이 파일에서 지정
