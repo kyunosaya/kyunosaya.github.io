@@ -3,19 +3,22 @@
    ========================================================================== */
 
 /* Colors */
+$main-color : #8FAF9F !default;
+$main-light-color : #C7D7CE !default;
 $background-color: #F4F3EE !default;
-$text-color: #2F3E3E !default;
-$muted-text-color: #5C6F68 !default;
-$primary-color: #c5d5bc !default;
+$background-sub-color: #ECEBE6 !default;
+$text-color : #2F3E3E !default;
+$text-point-color : #5C6F68 !default;
+
 $border-color: mix(#fff, #557759, 75%) !default;
-$footer-background-color: #c5d5bc !default;
+$footer-background-color: $main-color !default;
 $link-color: #3a753a !default;
 $masthead-link-color: $text-color !default;
 $masthead-link-color-hover: $text-color !default;
 $navicon-link-color-hover: mix(#fff, $text-color, 80%) !default;
 
 .page__footer {
-  color: #8FAF9F !important; // override
+  color: $main-color !important;
 }
 
 .page__footer-follow .social-icons .svg-inline--fa {
