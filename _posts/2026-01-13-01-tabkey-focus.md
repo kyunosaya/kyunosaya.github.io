@@ -1,6 +1,8 @@
 ---
 layout: single
 title:  "Tab키 포커스 제어 방법"
+categories: 
+  - development
 ---
 
 # tabindex 속성 이용해서 Tab키 포커스 제어하기
