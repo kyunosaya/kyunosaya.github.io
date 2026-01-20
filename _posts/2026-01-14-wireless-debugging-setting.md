@@ -40,6 +40,7 @@ title:  "무선 디버깅 셋팅하기"
   
 내 PC 마우스 우측 클릭 > 속성 > 고급 시스템 설정 보기 > 환경 변수(N) > 시스템 변수(S)  
   
+
   
 <img width="550" height="336" alt="image" src="https://github.com/user-attachments/assets/b66be356-4193-48d9-bab9-88228ee9ecb8" />  
   
@@ -49,6 +50,7 @@ title:  "무선 디버깅 셋팅하기"
   
 1. 새로 만들기(W) > 변수 이름 : adb / 변수 값 : 아까 다운로드 받은 파일 경로 > 확인  
   
+
   
 <img width="549" height="264" alt="image" src="https://github.com/user-attachments/assets/78b100dd-8465-430e-a726-d8737b1b8dcf" />  
   
@@ -58,6 +60,7 @@ title:  "무선 디버깅 셋팅하기"
   
 2. 변수 Path 선택 > 편집(I) > 새로 만들기(N) > %adb%\ 입력 > 확인  
   
+
   
 <img width="583" height="653" alt="image" src="https://github.com/user-attachments/assets/1fdc9f43-efee-47da-897b-60d8ca9ce60a" />  
   
@@ -65,6 +68,7 @@ title:  "무선 디버깅 셋팅하기"
   
 그리고 최종적으로 확인버튼 누르고 저장 !  
   
+
   
 <img width="573" height="139" alt="image" src="https://github.com/user-attachments/assets/84167eb0-61ef-4f83-92ac-0b34a5d928ad" />  
   
@@ -72,5 +76,6 @@ title:  "무선 디버깅 셋팅하기"
 무선 디버깅 시 작성 커멘드는 다음에 계속 !  
   
   
+
   
 참고 사이트 : [https://taeheum.tistory.com/191](https://taeheum.tistory.com/191)
