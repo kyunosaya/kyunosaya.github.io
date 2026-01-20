@@ -1,6 +1,6 @@
 ---
 title: "Notes"
 layout: category
-permalink: /categories/notes/
+permalink: /notes/
 taxonomy: notes
 ---
