@@ -1,6 +1,8 @@
 ---
 layout: single
 title:  "무선 디버깅 셋팅하기"
+categories: 
+  - development
 ---
 
 # 안드로이드 무선 디버깅하기 전 셋팅 과정
