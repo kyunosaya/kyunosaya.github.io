@@ -36,7 +36,7 @@ title:  "무선 디버깅 셋팅하기"
 <br>
 <img width="595" height="703" alt="image" src="https://github.com/user-attachments/assets/620b803c-fab3-41d3-8131-89256cf14b52" />  
 <br>
-내 PC 마우스 우측 클릭 > 속성 > 고급 시스템 설정 보기 > 환경 변수(N) > 시스템 변수(S)  
+**내 PC 마우스 우측 클릭 > 속성 > 고급 시스템 설정 보기 > 환경 변수(N) > 시스템 변수(S)**  
 <br>
 <br>
 <br>
@@ -46,7 +46,7 @@ title:  "무선 디버깅 셋팅하기"
 <br>
 <img width="552" height="258" alt="image" src="https://github.com/user-attachments/assets/2f093cbd-f13a-45c4-b608-be8aad259d89" />  
 <br>
-1. 새로 만들기(W) > 변수 이름 : adb / 변수 값 : 아까 다운로드 받은 파일 경로 > 확인  
+**새로 만들기(W) > 변수 이름 : adb / 변수 값 : 아까 다운로드 받은 파일 경로 > 확인**
 <br>
 <br>
 <br>
@@ -56,7 +56,7 @@ title:  "무선 디버깅 셋팅하기"
 <br>
 <img width="666" height="654" alt="image" src="https://github.com/user-attachments/assets/b741b6ba-fdcf-4aa3-a99f-e933a4218fdb" />  
 <br>
-2. 변수 Path 선택 > 편집(I) > 새로 만들기(N) > %adb%\ 입력 > 확인  
+**변수 Path 선택 > 편집(I) > 새로 만들기(N) > %adb%\ 입력 > 확인**  
 <br>
 <br>
 <br>
