@@ -9,6 +9,7 @@ title:  "무선 디버깅 셋팅하기"
 유선으로 하면 복잡하게 뭔가 설정을 만지고 뭘 더 할 건 없으니 빠르지만...  
 이런 경우가 생길 수 있으니 알아둬야겠다 싶었다.  
 <br>
+---
 <br>
 <a href="https://developer.android.com/tools/releases/platform-tools?hl=ko" target="_blank" rel="noopener noreferrer">
   <strong>ADB (Android Debug Bridge) 다운로드 사이트</strong>
@@ -23,9 +24,9 @@ title:  "무선 디버깅 셋팅하기"
 <br>
 <img width="1088" height="760" alt="image" src="https://github.com/user-attachments/assets/090b9465-8510-4270-b2cd-005db37e63b6" />  
 <br>
-<br>
 파일 압축 해제하면 준비는 끝 !  
 <br>
+---
 <br>
 <img width="566" height="525" alt="image" src="https://github.com/user-attachments/assets/54a13a3c-55f4-4913-af96-40b78310b7a4" />  
 <br>
@@ -44,7 +45,7 @@ title:  "무선 디버깅 셋팅하기"
 <br>
 <img width="552" height="258" alt="image" src="https://github.com/user-attachments/assets/2f093cbd-f13a-45c4-b608-be8aad259d89" />  
 <br>
-**새로 만들기(W) > 변수 이름 : adb / 변수 값 : 아까 다운로드 받은 파일 경로 > 확인**
+**새로 만들기(W) > 변수 이름 : adb / 변수 값 : 아까 다운로드 받은 파일 경로 > 확인**  
 <br>
 <br>
 <img width="549" height="264" alt="image" src="https://github.com/user-attachments/assets/78b100dd-8465-430e-a726-d8737b1b8dcf" />  
@@ -61,6 +62,8 @@ title:  "무선 디버깅 셋팅하기"
 <img width="614" height="697" alt="image" src="https://github.com/user-attachments/assets/c5a34750-4833-4386-969b-e72a1ce6eb78" />  
 <br>
 그리고 최종적으로 확인버튼 누르고 저장 !  
+<br>
+---
 <br>
 <img width="573" height="139" alt="image" src="https://github.com/user-attachments/assets/84167eb0-61ef-4f83-92ac-0b34a5d928ad" />  
 <br>
