@@ -1,7 +1,7 @@
 ---
 layout: category
 title: "Development"
-permalink: /categories/development/
+permalink: /development/
 taxonomy: development
 ---
 
