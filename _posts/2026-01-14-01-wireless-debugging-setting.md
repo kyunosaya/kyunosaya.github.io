@@ -27,7 +27,6 @@ title:  "무선 디버깅 셋팅하기"
 파일 압축 해제하면 준비는 끝 !  
 <br>
 <br>
-<br>
 <img width="566" height="525" alt="image" src="https://github.com/user-attachments/assets/54a13a3c-55f4-4913-af96-40b78310b7a4" />  
 <br>
 <img width="583" height="187" alt="image" src="https://github.com/user-attachments/assets/7c17340d-8a43-49a4-9618-f0e8a0931af2" />  
@@ -39,7 +38,6 @@ title:  "무선 디버깅 셋팅하기"
 **내 PC 마우스 우측 클릭 > 속성 > 고급 시스템 설정 보기 > 환경 변수(N) > 시스템 변수(S)**  
 <br>
 <br>
-<br>
 <img width="550" height="336" alt="image" src="https://github.com/user-attachments/assets/b66be356-4193-48d9-bab9-88228ee9ecb8" />  
 <br>
 <img width="842" height="219" alt="image" src="https://github.com/user-attachments/assets/ae8046bc-9b18-4610-8a4c-b385b9f6168f" />  
@@ -47,7 +45,6 @@ title:  "무선 디버깅 셋팅하기"
 <img width="552" height="258" alt="image" src="https://github.com/user-attachments/assets/2f093cbd-f13a-45c4-b608-be8aad259d89" />  
 <br>
 **새로 만들기(W) > 변수 이름 : adb / 변수 값 : 아까 다운로드 받은 파일 경로 > 확인**
-<br>
 <br>
 <br>
 <img width="549" height="264" alt="image" src="https://github.com/user-attachments/assets/78b100dd-8465-430e-a726-d8737b1b8dcf" />  
@@ -59,20 +56,16 @@ title:  "무선 디버깅 셋팅하기"
 **변수 Path 선택 > 편집(I) > 새로 만들기(N) > %adb%\ 입력 > 확인**  
 <br>
 <br>
-<br>
 <img width="583" height="653" alt="image" src="https://github.com/user-attachments/assets/1fdc9f43-efee-47da-897b-60d8ca9ce60a" />  
 <br>
 <img width="614" height="697" alt="image" src="https://github.com/user-attachments/assets/c5a34750-4833-4386-969b-e72a1ce6eb78" />  
 <br>
 그리고 최종적으로 확인버튼 누르고 저장 !  
 <br>
-<br>
-<br>
 <img width="573" height="139" alt="image" src="https://github.com/user-attachments/assets/84167eb0-61ef-4f83-92ac-0b34a5d928ad" />  
 <br>
 그러면 cmd에서 adb pair, adb connect... 이런 식으로 사용 가능하다 !  
 무선 디버깅 시 작성 커멘드는 다음에 계속 !  
-<br>
 <br>
 <br>
 <br>
