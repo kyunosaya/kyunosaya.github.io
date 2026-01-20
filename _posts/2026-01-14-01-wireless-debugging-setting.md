@@ -8,14 +8,13 @@ title:  "무선 디버깅 셋팅하기"
 항상 유선으로 디버깅을 해왔는데, 어느 날부터인가 Offline으로 나오고 디바이스와 연결이 도통 되지를 않았다.  
 유선으로 하면 복잡하게 뭔가 설정을 만지고 뭘 더 할 건 없으니 빠르지만...  
 이런 경우가 생길 수 있으니 알아둬야겠다 싶었다.  
-
-
+<br>
+<br>
 <a href="https://developer.android.com/tools/releases/platform-tools?hl=ko" target="_blank" rel="noopener noreferrer">
   <strong>ADB (Android Debug Bridge) 다운로드 사이트</strong>
 </a>  
 위 사이트에서 adb 최신버전을 다운받는다. (나는 Window용을 다운받았다.)  
-  
-  
+
 <img width="700" height="520" alt="image" src="https://github.com/user-attachments/assets/1b0aa004-c1c6-4f06-b0de-bd994baa6cdc" />  
   
 <img width="526" height="146" alt="image" src="https://github.com/user-attachments/assets/680e01a1-8911-4396-a87b-e20f160cfbe7" />  
@@ -74,8 +73,6 @@ title:  "무선 디버깅 셋팅하기"
   
 그러면 cmd에서 adb pair, adb connect... 이런 식으로 사용 가능하다 !  
 무선 디버깅 시 작성 커멘드는 다음에 계속 !  
-  
-  
 
-  
+
 참고 사이트 : [https://taeheum.tistory.com/191](https://taeheum.tistory.com/191)
