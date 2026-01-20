@@ -1,6 +1,6 @@
 ---
 title: "Daily"
 layout: category
-permalink: /categories/daily/
+permalink: /daily/
 taxonomy: daily
 ---
