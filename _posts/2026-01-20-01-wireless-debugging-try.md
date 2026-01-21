@@ -13,34 +13,36 @@ categories:
 cmd를 실행시켜줄건데,  
 <br>
 <br>
-![image.png](attachment:489107d4-3ecc-4ac9-823e-5302f854eec7:image.png)  
+<img src="/assets/images/posts/2026-01-20-01-wireless-debugging-try/01.png" width="700">  
 <br>
-![image.png](attachment:523ee1de-5efb-4e56-8d9f-cb56a9cb163b:image.png)  
+<img src="/assets/images/posts/2026-01-20-01-wireless-debugging-try/02.png" width="700">  
 <br>
-![image.png](attachment:fc462aaa-dec2-4a49-a066-81e9d6a8ed16:image.png)  
+<img src="/assets/images/posts/2026-01-20-01-wireless-debugging-try/03.png" width="600">  
 <br>
 이런 식으로 해당 폴더에 들어가서 cmd를 키면 바로 해당 디렉토리로 접속이 된다.  
 이런 방식이 아닌 그냥 cmd를 실행시키려고 한다면,  
 <br>
-![image.png](attachment:86e30939-57b7-4490-831b-1f7134c5e34a:image.png)  
+<img src="/assets/images/posts/2026-01-20-01-wireless-debugging-try/04.png" width="600">  
 <br>
-![image.png](attachment:7487515c-6306-4e2c-b652-3349a5b207ad:image.png)  
+<img src="/assets/images/posts/2026-01-20-01-wireless-debugging-try/05.png" width="600">  
 <br>
-![image.png](attachment:ec38afb4-cb72-47ef-b23c-1f6fc532ae84:image.png)  
+<img src="/assets/images/posts/2026-01-20-01-wireless-debugging-try/06.png" width="600">  
 <br>
-![image.png](attachment:37e8fee5-032b-4fee-ac11-872469d57aa1:image.png)  
+<img src="/assets/images/posts/2026-01-20-01-wireless-debugging-try/07.png" width="250">  
+나의 경우는 현재 디렉토리를 빠져나와야지 adb.exe 파일이 있는 디렉토리로 이동할 수 있기 때문에  
+cd ..로 빠져나왔다.  
 <br>
-![image.png](attachment:93b6a1ff-1f70-4067-8c32-429cd03e7936:image.png)  
+<img src="/assets/images/posts/2026-01-20-01-wireless-debugging-try/08.png" width="600">  
 <br>
-![image.png](attachment:60265b94-6192-4f01-b5ff-8eec0ceeda8a:image.png)  
+<img src="/assets/images/posts/2026-01-20-01-wireless-debugging-try/09.png" width="600">  
 <br>
 dir 명령어를 사용해서 디렉토리 목록을 보면서,  
 cd 명령어로 디렉토리 이동을 해주면 된다.  
 <br>
 <br>
-![image.png](attachment:21c36e4b-59df-489d-83ba-6033f762a12f:image.png)  
+<img src="/assets/images/posts/2026-01-20-01-wireless-debugging-try/10.png" width="600">  
 <br>
-해당 디렉토리로 이동하고 dir 명령어로 디렉토리 목록을 조회해서 **'adv.exe'**가 있는지 확인해주면 된다 !  
+해당 디렉토리로 이동하고 dir 명령어로 디렉토리 목록을 조회해서 **adv.exe**가 있는지 확인해주면 된다 !  
 자, 이제부터 페어링 및 커넥트를 해줄 차례다.  
 <br>
 <br>
@@ -52,18 +54,18 @@ cd 명령어로 디렉토리 이동을 해주면 된다.
 먼저, 모바일에서 무선 디버깅 모드를 활성화시켜놔야한다.  
 개발자 옵션 활성화시키는 방법은 기기마다 다르기 때문에, 서치해서 찾아보면 정보가 많이 나오니 참고하면 될 것 같다 !  
 <br>
-![Screenshot_20260121_101901_Settings.jpg](attachment:1c558db0-3726-4bc0-89cb-21165aa253cb:Screenshot_20260121_101901_Settings.jpg)  
+<img src="/assets/images/posts/2026-01-20-01-wireless-debugging-try/11.jpg" width="400">  
 무선 디버깅을 누르면 아래 이미지와 같이 화면 이동 된다.  
 거기서 '페어링 코드로 기기 페어링'을 눌러주면 페어링에 필요한 IP주소 및 포트와 인증번호가 나온다.  
 <br>
-![Screenshot_20260121_101938_Settings.jpg](attachment:4a4fe156-d5ff-4030-aba5-27f06f210d3c:Screenshot_20260121_101938_Settings.jpg)  
+<img src="/assets/images/posts/2026-01-20-01-wireless-debugging-try/12.jpg" width="400">  
 <br>
-![Screenshot_20260121_102230_Settings.jpg](attachment:d93280e8-5724-4e0d-ae5e-e5d8f1212562:Screenshot_20260121_102230_Settings.jpg)  
+<img src="/assets/images/posts/2026-01-20-01-wireless-debugging-try/13.jpg" width="400">  
 <br>
 위 정보를 가지고 페어링해줄거니까 cmd를 다시 실행시키자.  
 <br>
 <br>
-![image.png](attachment:0f147cc1-800c-4b15-9bbc-75a502c94ed9:image.png)  
+<img src="/assets/images/posts/2026-01-20-01-wireless-debugging-try/14.png" width="600">  
 **adb pair IP주소 및 포트번호** 입력 후 엔터,    
 **그리고 code 입력 칸에는 모바일에 나왔던 암호코드를 입력해준다.**  
 성공하면 Successfully paired... 하면서 안내 문구가 출력된다.  
