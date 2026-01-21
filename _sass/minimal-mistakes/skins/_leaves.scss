@@ -26,6 +26,22 @@ $navicon-link-color-hover: mix(#fff, $text-color, 80%) !default;
   color: $text-point-color !default;
 }
 
+# 햄버거 메뉴 색상
+.navicon {
+  background-color: $text-color !default;
+  &::before,
+  &::after {
+    background-color: $text-color !default;
+  }
+}
+
+.navicon:hover {
+  background-color: $text-point-color !default;
+  &::before,
+  &::after {
+    background-color: $text-point-color !default;
+  }
+}
 
 # footer
 .page__footer {
