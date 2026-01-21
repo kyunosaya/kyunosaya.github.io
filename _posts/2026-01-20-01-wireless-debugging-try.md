@@ -12,7 +12,6 @@ categories:
 앞에서 셋팅을 했다면, 이제 cmd에서 커넥트를 해줘야한다.  
 cmd를 실행시켜줄건데,  
 <br>
-<br>
 <img src="/assets/images/posts/2026-01-20-01-wireless-debugging-try/01.png" width="700">  
 <br>
 <img src="/assets/images/posts/2026-01-20-01-wireless-debugging-try/02.png" width="700">  
@@ -72,6 +71,40 @@ cd 명령어로 디렉토리 이동을 해주면 된다.
 <br>
 <br>
 
-## 디바이스 커넥트
+## 디바이스 커넥트  
 이제 커넥트(연결)을 해줘야한다.  
+<img src="/assets/images/posts/2026-01-20-01-wireless-debugging-try/15.jpg" width="400">  
+먼저, 디바이스의 **IP 주소 및 포트** 번호를 사용해줄거니 확인해준다.  
+<br>
+<img src="/assets/images/posts/2026-01-20-01-wireless-debugging-try/16.jpg" width="400">  
+cmd에서 **adb connect IP 주소 및 포트**를 입력 후 엔터 !  
+cottect to ip.... 이런 식으로 완료되면 안내 문구가 나온다.  
+<br>
+<img src="/assets/images/posts/2026-01-20-01-wireless-debugging-try/17.png" width="600">  
+<br>
+<img src="/assets/images/posts/2026-01-20-01-wireless-debugging-try/18.png" width="600">  
 
+[chrome://inspect/#devices](chrome://inspect/#devices) 에 들어가보면, 이런 식으로 연결된 것을 확인해볼 수 있다.  
+
+<br>
+<br>
+
+## 디바이스 무선 디버깅 연결 해제  
+연결은 해줬으니, 해제도 해줘야한다 !  
+
+<img src="/assets/images/posts/2026-01-20-01-wireless-debugging-try/19.png" width="250">  
+cmd에서  
+
+**adb shell** 입력 후 엔터 누르면, 다음 줄에 **'x1q:/ $'** 라고 나온다.  
+
+거기에 **exit**를 입력해주면 된다.  
+따로 안내 문구는 안 나오는 것 같다.  
+그 후에 모바일에서도 무선 디버깅을 비활성화해주면 끝이다.  
+<img src="/assets/images/posts/2026-01-20-01-wireless-debugging-try/20.jpg" width="400">  
+<br>
+<br>
+<br>
+참고 사이트 :
+<a href="https://tech-runner.tistory.com/101#google_vignette" target="_blank" rel="noopener noreferrer">
+  https://tech-runner.tistory.com/101#google_vignette
+</a>  
