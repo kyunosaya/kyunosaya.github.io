@@ -14,7 +14,7 @@ $border-color: mix(#fff, #557759, 75%) !default;
 $footer-background-color: $main-color !default;
 $link-color: #3a753a !default;
 $masthead-link-color: $text-color !default;
-$masthead-link-color-hover: linear-gradient(to bottom, $text-point-color, #FFF) !default;
+$masthead-link-color-hover: $text-point-color !default;
 $navicon-link-color-hover: mix(#fff, $text-color, 80%) !default;
 
 .page__footer {
