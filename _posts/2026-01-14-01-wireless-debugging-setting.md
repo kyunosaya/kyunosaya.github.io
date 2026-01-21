@@ -67,8 +67,11 @@ categories:
 <img width="573" height="139" alt="image" src="https://github.com/user-attachments/assets/84167eb0-61ef-4f83-92ac-0b34a5d928ad" />  
 <br>
 그러면 cmd에서 adb pair, adb connect... 이런 식으로 사용 가능하다 !  
-무선 디버깅 시 작성 커멘드는 다음에 계속 !  
+무선 디버깅 시 작성 커멘드는 [요기!](https://kyunosaya.github.io/development/01-wireless-debugging-try/) !  
 <br>
 <br>
 <br>
-참고 사이트 : [https://taeheum.tistory.com/191](https://taeheum.tistory.com/191)
+참고 사이트 :
+<a href="https://taeheum.tistory.com/191" target="_blank" rel="noopener noreferrer">
+  https://taeheum.tistory.com/191
+</a>  
