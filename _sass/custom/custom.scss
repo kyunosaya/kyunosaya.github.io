@@ -9,11 +9,11 @@ body {
 }
 
 // 검색 아이콘
-.search__toggle {
+.masthead .search__toggle {
   color: #FFF; //$text-color;
 }
 
-.search__toggle:hover {
+.masthead .search__toggle:hover {
   color: #000; //$text-point-color;
 }
 
