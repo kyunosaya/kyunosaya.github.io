@@ -7,14 +7,13 @@ categories:
 
 # 안드로이드 무선 디버기하기 위해 디바이스 연결 과정  
 <br>
-<br>
 
 ## cmd 준비  
 앞에서 셋팅을 했다면, 이제 cmd에서 커넥트를 해줘야한다.  
 cmd를 실행시켜줄건데,  
 <br>
 <br>
-![image.png](attachment:489107d4-3ecc-4ac9-823e-5302f854eec7:image.png) 
+![image.png](attachment:489107d4-3ecc-4ac9-823e-5302f854eec7:image.png)  
 <br>
 ![image.png](attachment:523ee1de-5efb-4e56-8d9f-cb56a9cb163b:image.png)  
 <br>
