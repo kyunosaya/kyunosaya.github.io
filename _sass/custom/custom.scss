@@ -1,18 +1,46 @@
+/* 공통 */
+body {
+  font-family: "Pretendard",
+               -apple-system,
+               BlinkMacSystemFont,
+               "Apple SD Gothic Neo",
+               "Noto Sans KR",
+               sans-serif;
+}
+
+// 검색 아이콘
+.search__toggle {
+  color: #2F3E3E; //$text-color;
+}
+
+.search__toggle:hover {
+  color: #5C6F68; //$text-point-color;
+}
+
+// 햄버거 메뉴 색상
+.navicon {
+  background-color: #2F3E3E; //$text-color;
+  &::before,
+  &::after {
+    background-color: #2F3E3E; //$text-color;
+  }
+}
+
+.navicon:hover {
+  background-color: #5C6F68; //$text-point-color;
+  &::before,
+  &::after {
+    background-color: #5C6F68; //$text-point-color;
+  }
+}
+
+
 /* PC */
 @media (min-width: 1024px) {
   html {
     font-size: 18px;
   }
 
-  body {
-    font-family: "Pretendard",
-                  -apple-system,
-                  BlinkMacSystemFont,
-                  "Apple SD Gothic Neo",
-                  "Noto Sans KR",
-                  sans-serif;
-  }
-  
   // 제목
   .page__title {}
   .archive__item-title.no_toc > a {
@@ -33,9 +61,11 @@
   }
 }
 
+
 /* Tablet */
 @media (min-width: 768px) and (max-width: 1023px) {
 }
+
 
 /* Mobile */
 @media (max-width: 767px) {
