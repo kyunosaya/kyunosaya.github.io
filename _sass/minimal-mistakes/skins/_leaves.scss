@@ -18,7 +18,7 @@ $masthead-link-color: $text-color !default;
 $masthead-link-color-hover: $text-point-color !default;
 $navicon-link-color-hover: mix(#fff, $text-color, 80%) !default;
 
-# 검색 아이콘
+// 검색 아이콘
 .search__toggle {
   color: $text-color !important;
 }
@@ -27,7 +27,7 @@ $navicon-link-color-hover: mix(#fff, $text-color, 80%) !default;
   color: $text-point-color !important;
 }
 
-# 햄버거 메뉴 색상
+// 햄버거 메뉴 색상
 .navicon {
   background-color: $text-color !important;
   &::before,
