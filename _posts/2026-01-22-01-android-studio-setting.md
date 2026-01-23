@@ -20,10 +20,9 @@ categories:
 구글이 만든 **앱** 개발 프레임워크  
 <br>
 ### Android Studio 란?
-구글이 만든 안드로이드 전용 개발 환
+구글이 만든 안드로이드 전용 개발 환경  
 <br>
-Flutter만 사용하기로 얘기했는데 Android Studio까지 설치하게 된 이유는,  
-Flutter를 실행하려면 안드로이드용 필수 도구들이 필요한데, Android Studio가 그것들을 한 번에 설치해주기 때문이다.  
+Android Studio까지 설치하게 된 이유는, Flutter를 실행하려면 안드로이드용 필수 도구들이 필요한데, Android Studio가 그것들을 한 번에 설치해주기 때문이다.  
 안드로이드 SDK, 에뮬레이터, 빌드,디버깅 도구... 이런 것들!  
 때문에 Android Studio를 설치하고 Flutter사용하는 것이 제일 쉽고 안전하다고 한다.  
 그리고 예전에도 앱 개발 시 Android Studio를 사용하는 경우가 많다는 것을 알고 있었기에 써보고 싶었다!  
