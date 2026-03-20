@@ -6,8 +6,8 @@ categories:
 ---
 
 # TortoiseGit에서 commit branch위치 변경하는 방법
-나는 git을 CUI가 아닌 GUI로 사용하기 위해 TortoiseGit을 항상 사용하는 편이다.
-근데 Branch를 바꾸려고 하니, 어떻게 바꾸는지 모르겠는 것이다..!
+나는 git을 CUI가 아닌 GUI로 사용하기 위해 TortoiseGit을 항상 사용하는 편이다.  
+근데 Branch를 바꾸려고 하니, 어떻게 바꾸는지 모르겠는 것이다..!  
 너무 기본적인 건데 업무를 하면서 branch를 변경할 일이 많이 없었다보니 이제야 알았다.  
 <br>
 <br>
@@ -22,3 +22,19 @@ commit할 때, 상단에 Branch명이 나온다.
 <br>
 ### TortoiseGit에서 commit branch위치 변경하기  
 <img src="/assets/images/posts/2026-02-24-01-TortoiseGit-branch-change/03.png" width="400">  
+Switch/Checkout 을 클릭해준다.  
+<br>
+<br>
+<img src="/assets/images/posts/2026-02-24-01-TortoiseGit-branch-change/04.png" width="400">  
+<img src="/assets/images/posts/2026-02-24-01-TortoiseGit-branch-change/05.png" width="400">  
+이제, 옮기고 싶은 Branch명을 선택해주고 OK를 누르면 끝난다 !  
+<br>
+<br>
+<img src="/assets/images/posts/2026-02-24-01-TortoiseGit-branch-change/06.png" width="400">  
+그 후 확인해보면, Branch의 위치가 바뀐 것을 확인할 수 있다.  
+<br>
+<br>
+<br>
+간단하게 GUI로 git branch위치를 바꾸는 방법이었다.  
+끝 !
+
